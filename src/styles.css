@@ -1,0 +1,33 @@
+.App {
+  font-family: cursive;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+  text-align: center;
+  /* http://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+  .overlay
+  position: absolute;
+  top: 30;
+  left: 30;
+  width: 100%;
+  height: 100%;
+  background: rgba(150, 190, 248, 0.294);*/
+  position: relative;
+  z-index: 1;
+}
+.main1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  border: 10px solid black;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+How to Create a Video Background Component in React JS - With a Background Overlay https://www.youtube.com/watch?v=LSRNmhLS76o */
